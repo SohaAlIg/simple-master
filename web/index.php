@@ -19,6 +19,7 @@
 
         echo 'Hello ' . $_SESSION['name'] . '<br>';
         // echo 'index.php -> exit.php' . '<br>';
+        echo 'Перейти на exit.php, что бы закрыть сессию!' . '<br>';
         header("Location: exit.php");
 
         } else {
